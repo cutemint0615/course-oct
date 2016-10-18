@@ -1,4 +1,4 @@
-# Reads a fasta file and prints the sequence to standard out.
+# Reads a fasta file and prints the sequence to standard out to the terminal.
 
 import sys
 
