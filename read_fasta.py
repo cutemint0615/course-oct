@@ -1,3 +1,5 @@
+# Reads a fasta file and prints the sequence to standard out.
+
 import sys
 
 def read_fasta(filename):
@@ -15,4 +17,9 @@ if len(sys.argv) < 2:
     print "Usage:", sys.argv[0], "<sequence.fa>"
     exit(1)
 
+# end of the analysis
+<<<<<<< HEAD
 print read_fasta(sys.argv[1])
+=======
+print read_fasta(sys.argv[1])
+>>>>>>> add-docs
