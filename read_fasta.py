@@ -18,8 +18,5 @@ if len(sys.argv) < 2:
     exit(1)
 
 # end of the analysis
-<<<<<<< HEAD
+
 print sys,argv[1], ';',read_fasta(sys.argv[1])
-=======
-print read_fasta(sys.argv[1])
->>>>>>> add-docs
